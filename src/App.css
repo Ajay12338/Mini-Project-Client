@@ -1,13 +1,13 @@
-#main-heading {
+#body-heading {
   position: absolute;
   text-align: center;
   font-family: "Sacramento", cursive;
   font-size: 2rem;
   z-index: 2;
   color: #fff;
-  top: 10%; /* Place the h1 at the top */
-  left: 50%; /* Center the h1 horizontally */
-  transform: translateX(-50%); /* Center the h1 horizontally */
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #retr-btn {
   bottom: 10px;
@@ -23,7 +23,15 @@
   font-size: 0.6rem;
 }
 #main-heading {
+  position: absolute;
+  text-align: center;
+  font-family: "Sacramento", cursive;
+  font-size: 2rem;
+  z-index: 2;
   color: black;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #close-btn {
   margin: 20px 0;

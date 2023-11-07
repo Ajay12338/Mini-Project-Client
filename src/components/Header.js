@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <>
-      <h1 id="main-heading">Doctors Portal</h1>
+      <h1 id="body-heading">Doctors Portal</h1>
     </>
   );
 };
