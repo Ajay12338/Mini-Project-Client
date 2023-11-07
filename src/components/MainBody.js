@@ -1,12 +1,12 @@
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../utils/firebase_init";
 import { useNavigate } from "react-router-dom";
-
+import secret_key from "../utils/secret_key";
 const MainBody = (props) => {
   const navigate = useNavigate();
 
   const handleDecrypt = async () => {
-    const password = "yoursecretpassword1";
+    const password = secret_key();
     let encrypted_images = [];
     let dates_of_images = [];
     try {
